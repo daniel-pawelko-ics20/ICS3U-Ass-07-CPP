@@ -46,7 +46,7 @@ int main() {
         while (true) {
             cout << "Enter a number: ";
             cin >> temp;
-            inp.push_back(stoi(temp));
+            inp.push_back(stof(temp));
         }
     } catch(std::invalid_argument) {
         // calling function
@@ -60,7 +60,7 @@ int main() {
 
         // output
         cout << "Biggest number is " << returned << endl;
-    } 
+    }
 
     // done
     cout << "\nDone." << endl;
